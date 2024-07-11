@@ -1,0 +1,20 @@
+hero-section {
+    position: relative;
+  }
+  
+  .carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .categories-section .category-card {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+  }
+  
+  .categories-section .category-card:hover {
+    transform: translateY(-10px);
+  }
